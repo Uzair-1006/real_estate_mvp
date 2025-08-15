@@ -7,6 +7,18 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="🧠 Persist AI – Real Estate Investment Engine", layout="wide")
 
+st.markdown("""
+**Note from Developer:**  
+*A Loom video walkthrough was recorded and submitted as part of this MVP.  
+This app was built in under 4 hours to demonstrate rapid execution, real estate investment logic, and founder-level thinking.*
+
+*This version uses rule-based intelligence — not machine learning — because the goal was to prove the system design first.  
+But every component — from deal scoring to fake listing detection, future yield prediction, and upzoning flags — is structured to evolve into a full ML-powered investment engine.*
+
+*Next steps: train the model on real dispositions, implement reinforcement learning for self-improving decisions, and scale toward a quantum-ready pipeline using frameworks like TensorFlow Quantum.  
+I’m not just building a tool.  
+I’m ready to co-found the future of real estate AI.*
+""")
 df = pd.read_csv('real_estate_price_size_year.csv')
 
 current_year = datetime.datetime.now().year
