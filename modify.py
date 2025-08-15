@@ -10,7 +10,7 @@ st.set_page_config(page_title="🧠 Persist AI – Real Estate Investment Engine
 st.markdown("""
 **Note from Developer:**  
 *A Loom video walkthrough was recorded and submitted as part of this MVP.  
-This app was built in under 4 hours to demonstrate rapid execution, real estate investment logic, and founder-level thinking.*
+This app was built in under 4 hours to demonstrate rapid execution, real estate investment logic.*
 
 *This version uses rule-based intelligence — not machine learning — because the goal was to prove the system design first.  
 But every component — from deal scoring to fake listing detection, future yield prediction, and upzoning flags — is structured to evolve into a full ML-powered investment engine.*
